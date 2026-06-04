@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f8fbff;
+  color: #475569;
+  font-family: 'Inter', sans-serif;
+}
+
+/* MAIN HEADING */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #5B8DEF;
+}
+
+/* SEMUA TEXT BOLD */
+strong,
+b {
+  color: #5B8DEF;
+}
+
+/* GLASS EFFECT */
+.glass {
+  background: rgba(255, 255, 255, 0.55);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255,255,255,0.7);
+
+  box-shadow:
+    0 8px 32px rgba(31, 38, 135, 0.08);
+}
+
+/* SOFT HOVER */
+.glass-hover {
+  transition: all 0.35s ease;
+}
+
+.glass-hover:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 15px 40px rgba(91, 141, 239, 0.15);
+}
+
+/* TEXT GRADIENT */
+.text-gradient {
+  background: linear-gradient(
+    to right,
+    #60a5fa,
+    #7dd3fc
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
