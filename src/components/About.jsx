@@ -170,7 +170,7 @@ export default function About() {
             text-transparent
           "
         >
-          About Me
+          Who's Behind?
         </motion.h2>
 
         <div className="grid lg:grid-cols-2 gap-10 items-start">
@@ -280,7 +280,7 @@ export default function About() {
                     className="
                       bg-white/60
                       border
-                      border-white/40
+                      border-[#5B8DEF]
 
                       px-5
                       py-3
@@ -321,7 +321,9 @@ export default function About() {
                     }}
 
                     className="
-                      glass
+                      bg-white/60
+                      border
+                      border-[#5B8DEF]
 
                       px-5
                       py-3
@@ -329,6 +331,7 @@ export default function About() {
                       rounded-full
 
                       text-sm
+                      font-medium
 
                       transition-all
                       duration-300
@@ -360,7 +363,7 @@ export default function About() {
             <div className="flex items-center justify-between mb-10">
 
               <h4 className="text-3xl font-bold">
-                Tech Stack
+                My Tools
               </h4>
 
               <div
