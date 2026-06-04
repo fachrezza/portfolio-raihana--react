@@ -253,29 +253,7 @@ const projects = [
   },
   
 
-  {
-    category: "Graphic Design",
-
-    title: "Poster Design Projects",
-
-    description:
-      "Designed impactful poster visuals for events, campaigns, and community projects with a clean modern approach.",
-
-    tech: [
-      "Poster Design",
-      "Typography",
-      "Branding",
-      "Adobe Lightroom",
-    ],
-
-    image: "/projects/poster/poster1.webp",
-
-    gallery: [
-      "/projects/poster/poster1.webp",
-      "/projects/poster/poster2.webp",
-      "/projects/poster/poster3.webp",
-    ],
-  },
+  
 
   {
     category: "Photography",
