@@ -790,10 +790,7 @@ export default function Projects() {
                             key={i}
                             className={`
                               overflow-hidden
-                              rounded-[24px]
-
-
-
+                              
                             `}
                           >
                             <img
@@ -858,14 +855,14 @@ export default function Projects() {
                         key={i}
                         className="
                           overflow-hidden
-                          rounded-[24px]
+                          
                         "
                       >
                             <img
                               src={img}
                               alt="project"
                               className="
-                                w-full
+                                max-w-[300px]
                                 max-h-[650px]
                                 object-contain
                               "
