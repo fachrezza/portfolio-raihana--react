@@ -14,12 +14,12 @@ export default function Projects() {
 
   const categories = [
     "All",
-    "Social Media",
-    "Videography",
     "Graphic Design",
-    "Poster",
+    "Videography",
     "Photography",
-    "Digital Marketing",
+    "Brand Identity",
+    "Managed Account",
+    
   ];
 
   const [activeCategory, setActiveCategory] =
@@ -28,9 +28,10 @@ export default function Projects() {
   const filteredProjects =
     activeCategory === "All"
       ? projects
-      : projects.filter(
-          (project) =>
-            project.category === activeCategory
+      : projects.filter((project) =>
+        Array.isArray(project.category)
+          ? project.category.includes(activeCategory)
+          : project.category === activeCategory
         );
 
   return (

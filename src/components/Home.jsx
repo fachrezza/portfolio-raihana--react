@@ -193,10 +193,7 @@ export default function Home() {
                   max-w-2xl
                 "
               >
-                Creative storyteller focused on visual
-                branding, videography, social media
-                content, and digital experiences for
-                modern audiences and impactful campaigns.
+                Creative storyteller who turning your ideas into high-impact content that grabs attention and drives results. Strategy-led visuals, videos, and campaigns built to move your brand forward.
               </motion.p>
 
               {/* BUTTONS */}
@@ -222,7 +219,9 @@ export default function Home() {
               >
                 {/* CV */}
                 <a
-                  href="/resume.pdf"
+                  href="https://drive.google.com/file/d/10v_bKfNiwOPpXWTjQ8-6cyLMYFxVrhm-/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
                   download
                   className="
                     bg-[#5B8DEF]
@@ -373,99 +372,77 @@ export default function Home() {
                 <div className="space-y-4">
                   {/* CARD */}
                   <motion.div
-                    whileHover={{
-                      x: 6,
-                    }}
+                    whileHover={{ x: 6 }}
                     className="
-                      flex
-                      items-center
-                      justify-between
+                      flex items-center justify-between
                       bg-white/70
                       rounded-2xl
-                      px-5
-                      py-4
-                      border
-                      border-white/40
+                      px-5 py-4
+                      border border-white/40
                     "
                   >
-                    <div>
-                      <p className="text-gray-400 text-sm">
-                        Content
+                    <div className="flex items-center gap-4">
+                      <span className="w-7 h-7 flex items-center justify-center rounded-full border border-[#3556D8] text-white text-sm font-semibold">
+                        1
+                      </span>
+
+                      <p className="text-gray-400 text-sm flex gap-1">
+                        Creative
+                        <span className="text-black font-semibold">
+                          Project Lead
+                        </span>
                       </p>
-
-                      <h4 className="font-semibold">
-                        Social Media
-                      </h4>
                     </div>
-
-                    <span
-                      className="
-                        text-[#5B8DEF]
-                        font-semibold
-                      "
-                    >
-                      
-                    </span>
                   </motion.div>
 
                   {/* CARD */}
                   <motion.div
-                    whileHover={{
-                      x: 6,
-                    }}
+                    whileHover={{ x: 6 }}
                     className="
-                      flex
-                      items-center
-                      justify-between
+                      flex items-center justify-between
                       bg-white/70
                       rounded-2xl
-                      px-5
-                      py-4
-                      border
-                      border-white/40
+                      px-5 py-4
+                      border border-white/40
                     "
                   >
-                    <div>
-                      <p className="text-gray-400 text-sm">
-                        Visual
+                    <div className="flex items-center gap-4">
+                      <span className="w-7 h-7 flex items-center justify-center rounded-full border border-[#3556D8] text-white text-sm font-semibold">
+                        2
+                      </span>
+
+                      <p className="text-gray-400 text-sm flex gap-1">
+                        Brand 
+                        <span className="text-black font-semibold">
+                          Identity
+                        </span>
                       </p>
-
-                      <h4 className="font-semibold">
-                        Videography
-                      </h4>
                     </div>
-
-
                   </motion.div>
 
                   {/* CARD */}
                   <motion.div
-                    whileHover={{
-                      x: 6,
-                    }}
+                    whileHover={{ x: 6 }}
                     className="
-                      flex
-                      items-center
-                      justify-between
+                      flex items-center justify-between
                       bg-white/70
                       rounded-2xl
-                      px-5
-                      py-4
-                      border
-                      border-white/40
+                      px-5 py-4
+                      border border-white/40
                     "
                   >
-                    <div>
-                      <p className="text-gray-400 text-sm">
-                        Branding
+                    <div className="flex items-center gap-4">
+                      <span className="w-7 h-7 flex items-center justify-center rounded-full border border-[#3556D8] text-white text-sm font-semibold">
+                        3
+                      </span>
+
+                      <p className="text-gray-400 text-sm flex gap-1">
+                        Digital
+                        <span className="text-black font-semibold">
+                          Growth
+                        </span>
                       </p>
-
-                      <h4 className="font-semibold">
-                        Graphic Design
-                      </h4>
                     </div>
-
- 
                   </motion.div>
                 </div>
               </div>

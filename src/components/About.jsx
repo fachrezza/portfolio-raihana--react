@@ -184,23 +184,26 @@ export default function About() {
             className="
               glass
               rounded-[40px]
-              p-10
-              space-y-10
+              p-7
+              space-y-7
+              h-full
+              flex
+              flex-col
             "
           >
 
             {/* INTRO */}
             <div>
 
-              <p className="text-blue-500 font-medium mb-3">
+              <p className="text-blue-400 font-medium mb-3">
                 Digital Creative
               </p>
 
-              <h3 className="text-4xl font-bold leading-tight mb-5">
+              <h3 className="text-2xl font-bold leading-tight mb-5">
                 Building meaningful digital experiences.
               </h3>
 
-              <p className="text-gray-600 leading-8 text-lg">
+              <p className="text-black-300 leading-8 text-lg">
                 Hi, i'm your fav Gen Z creative storyteller
                 passionate about visual branding, content strategy,
                 and digital growth through modern creative direction.
@@ -211,47 +214,30 @@ export default function About() {
             {/* MAIN SKILLS */}
             <div>
 
-              <h4 className="text-2xl font-semibold mb-5">
+              <h4 className="text-xl font-semibold mb-4">
                 Skills
               </h4>
 
-              <div className="space-y-4">
+              <div className="grid grid-cols-3 gap-4">
 
                 {mainSkills.map((skill, index) => (
                   <motion.div
-                    key={index}
-
-                    whileHover={{
-                      scale: 1.02,
-                      x: 6,
-                    }}
-
+                    whileHover={{ scale: 1.03, x: 4 }}
                     className="
                       bg-white/60
-                      border
-                      border-white/40
-
-                      rounded-[28px]
-
-                      p-5
-
-                      flex
-                      items-center
-                      gap-4
-
-                      transition-all
-                      duration-300
+                      border border-white/40
+                      rounded-2xl
+                      p-1
+                      flex items-center gap-3
                     "
                   >
-
                     <div className="text-blue-500">
                       {skill.icon}
                     </div>
 
-                    <h5 className="font-semibold text-lg">
+                    <h5 className="font-semibold text-base">
                       {skill.title}
                     </h5>
-
                   </motion.div>
                 ))}
 
@@ -262,11 +248,11 @@ export default function About() {
             {/* SOFT SKILLS */}
             <div>
 
-              <h4 className="text-2xl font-semibold mb-5">
+              <h4 className="text-xl font-semibold mb-5">
                 Soft Skills
               </h4>
 
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap gap-3">
 
                 {softSkills.map((skill, index) => (
                   <motion.div
@@ -282,12 +268,12 @@ export default function About() {
                       border
                       border-[#5B8DEF]
 
-                      px-5
-                      py-3
+                      px-3
+                      py-1.5
 
                       rounded-full
 
-                      text-sm
+                      text-xs
                       font-medium
 
                       transition-all
@@ -305,11 +291,11 @@ export default function About() {
             {/* KEY SKILLS */}
             <div>
 
-              <h4 className="text-2xl font-semibold mb-5">
+              <h4 className="text-xl font-semibold mb-5">
                 Key Skills
               </h4>
 
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap gap-3">
 
                 {keySkills.map((skill, index) => (
                   <motion.div
@@ -325,12 +311,12 @@ export default function About() {
                       border
                       border-[#5B8DEF]
 
-                      px-5
-                      py-3
+                      px-3
+                      py-1.5
 
                       rounded-full
 
-                      text-sm
+                      text-xs
                       font-medium
 
                       transition-all
@@ -357,6 +343,9 @@ export default function About() {
               glass
               rounded-[40px]
               p-10
+              h-full
+              flex
+              flex-col
             "
           >
 

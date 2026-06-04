@@ -1,6 +1,6 @@
 const projects = [
   {
-    category: "Social Media",
+    category: "Graphic Design",
 
     title: "Social Media & Digital Content Intern at Telkom Indonesia",
 
@@ -71,7 +71,7 @@ const projects = [
   },
 
   {
-    category: "Digital Marketing",
+    category: "Graphic Design",
 
     title: "Digital Marketing at Electrical Engineering Department of UMY",
 
@@ -87,51 +87,10 @@ const projects = [
 
     image: "/projects/umy/umy-cover.webp",
 
-    gallery: [
-      "/projects/umy/umy1.webp",
-      "/projects/umy/umy2.webp",
-      "/projects/umy/umy3.webp",
-      "/projects/umy/umy4.webp",
-      "/projects/umy/umy5.webp",
-      "/projects/umy/umy6.webp",
-      "/projects/umy/umy7.webp",
-      "/projects/umy/umy8.webp",
-    ],
+    gallery: Array.from({ length: 37 }, (_, i) =>
+      `/projects/umy/umy${i + 1}.webp`
+    )
   },
-
-  {
-    category: "Graphic Design",
-
-    title: "Graphic Designer at Dr.Bahasa Korea",
-
-    description:
-      "Designed educational and creative visual content to improve audience engagement and strengthen brand identity.",
-
-    tech: [
-      "Graphic Design",
-      "Visual Branding",
-      "Social Media",
-      "Canva",
-    ],
-
-    image: "/projects/dr/dr-cover.webp",
-
-    gallery: [
-      "/projects/dr/dr1.webp",
-      "/projects/dr/dr2.webp",
-      "/projects/dr/dr3.webp",
-      "/projects/dr/dr4.webp",
-      "/projects/dr/dr5.webp",
-      "/projects/dr/dr6.webp",
-      "/projects/dr/dr7.webp",
-      "/projects/dr/dr8.webp",
-      "/projects/dr/dr9.webp",
-      "/projects/dr/dr10.webp",
-      "/projects/dr/dr11.webp",
-
-    ],
-  },
-
   {
     category: "Graphic Design",
 
@@ -150,37 +109,12 @@ const projects = [
     image: "/projects/banner/banner1.webp",
 
     gallery: [
-      "/projects/banner/banner1.webp",
+      
       "/projects/banner/banner2.webp",
       "/projects/banner/banner3.webp",
-    ],
-  },
-  {
-    category: "Graphic Design",
-
-    title: "Logo Design Projects",
-
-    description:
-      "The Manna is a retro-inspired Korean restaurant serving old-school Korean toast and authentic korean snacks. The logo combines nostalgic Korean vintage aesthetics with bold modern elements, creating playfull yet iconic brand identity inspired by classic Korean street culture.",
-
-    tech: [
-      "Brand Identity",
-      "Typography",
-      "Canva",
-    ],
-
-    image: "/projects/logo/logo1.webp",
-
-    gallery: [
-      "/projects/logo/logo1.webp",
-      
-      "/projects/logo/logo3.webp",
-      "/projects/logo/logo8.webp",
-      "/projects/logo/logo4.webp",
-      "/projects/logo/logo5.webp",
-      "/projects/logo/logo6.webp",
-      "/projects/logo/logo7.webp",
-
+      "/projects/banner/banner4.webp",
+      "/projects/banner/banner5.webp",
+      "/projects/banner/banner1.webp",
     ],
   },
   {
@@ -254,9 +188,73 @@ const projects = [
       
     ],
   },
+  {
+    category: "Graphic Design",
+
+    title: "Graphic Designer at Dr.Bahasa Korea",
+
+    description:
+      "Designed educational and creative visual content to improve audience engagement and strengthen brand identity.",
+
+    tech: [
+      "Graphic Design",
+      "Visual Branding",
+      "Social Media",
+      "Canva",
+    ],
+
+    image: "/projects/dr/dr-cover.webp",
+
+    gallery: [
+      "/projects/dr/dr1.webp",
+      "/projects/dr/dr2.webp",
+      "/projects/dr/dr3.webp",
+      "/projects/dr/dr4.webp",
+      "/projects/dr/dr5.webp",
+      "/projects/dr/dr6.webp",
+      "/projects/dr/dr7.webp",
+      "/projects/dr/dr8.webp",
+      "/projects/dr/dr9.webp",
+      "/projects/dr/dr10.webp",
+      "/projects/dr/dr11.webp",
+
+    ],
+  },
 
   {
-    category: "Poster",
+    category: [
+      "Graphic Design",
+      "Brand Identity",
+    ],
+    title: "Logo Design Projects",
+
+    description:
+      "The Manna is a retro-inspired Korean restaurant serving old-school Korean toast and authentic korean snacks. The logo combines nostalgic Korean vintage aesthetics with bold modern elements, creating playfull yet iconic brand identity inspired by classic Korean street culture.",
+
+    tech: [
+      "Brand Identity",
+      "Typography",
+      "Canva",
+    ],
+
+    image: "/projects/logo/logo1.webp",
+
+    gallery: [
+      "/projects/logo/logo1.webp",
+      
+      "/projects/logo/logo3.webp",
+      "/projects/logo/logo8.webp",
+      "/projects/logo/logo4.webp",
+      "/projects/logo/logo5.webp",
+      "/projects/logo/logo6.webp",
+      "/projects/logo/logo7.webp",
+
+    ],
+  },
+  
+
+  {
+    category: "Graphic Design",
 
     title: "Poster Design Projects",
 
@@ -294,19 +292,15 @@ const projects = [
       "Lightroom",
     ],
 
-    image: "/projects/phgraph/photo-cover.webp",
+    image: "/projects/phgraph/photo1.webp",
 
-    gallery: [
-      "/projects/phgraph/photo6.webp",
-      "/projects/phgraph/photo2.webp",
-      "/projects/phgraph/photo1.webp",
-      "/projects/phgraph/photo3.webp",
-      "/projects/phgraph/photo5.webp",
-    ],
+    gallery: Array.from({ length: 14 }, (_, i) =>
+      `/projects/phgraph/photo${i + 1}.webp`
+    )
   },
 
   {
-    category: "Social Media",
+    category: "Managed Account",
 
     title: "Managed Accounts",
 

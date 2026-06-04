@@ -361,7 +361,7 @@ export default function Contact() {
               >
                 <FaWhatsapp size={22} />
 
-                <span>WhatsApp</span>
+                <p>WhatsApp</p>
 
                 <ArrowUpRight size={18} />
               </motion.a>
