@@ -33,7 +33,10 @@ export default function Projects() {
           ? project.category.includes(activeCategory)
           : project.category === activeCategory
         );
-
+  const isBrandIdentity =
+  Array.isArray(selectedProject?.category)
+    ? selectedProject.category.includes("Brand Identity")
+    : selectedProject?.category === "Brand Identity";
   return (
     <section
       className="
@@ -839,25 +842,39 @@ export default function Projects() {
                         {selectedProject.description}
                       </p>
                     </div>
-
+                    
                     {/* GALLERY */}
-                    <div
-                        className={`
-                        grid
-                        gap-6
-                        place-items-center
-                        md:grid-cols-4
-                        
-                      `}
-                    >
-                      {selectedProject.gallery?.map((img, i) => (
+                    {isBrandIdentity ? (
+                      // SPECIAL FULL LOGO VIEW
+                      <div className="flex items-center justify-center">
+                        <img
+                          src={selectedProject.gallery?.[0]}
+                          alt="brand identity"
+                          className="
+                            w-full
+                            max-w-5xl
+                            max-h-[80vh]
+                            object-contain
+                            rounded-[32px]
+                            shadow-[0_30px_100px_rgba(91,141,239,0.25)]
+                          "
+                        />
+                      </div>
+                    ) : (
+                      // NORMAL GALLERY SYSTEM
                       <div
-                        key={i}
                         className="
-                          overflow-hidden
-                          
+                          grid
+                          gap-6
+                          place-items-center
+                          md:grid-cols-4
                         "
                       >
+                        {selectedProject.gallery?.map((img, i) => (
+                          <div
+                            key={i}
+                            className="overflow-hidden rounded-[24px]"
+                          >
                             <img
                               src={img}
                               alt="project"
@@ -868,9 +885,9 @@ export default function Projects() {
                               "
                             />
                           </div>
-                        )
-                      )}
-                    </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 )}
               </div>

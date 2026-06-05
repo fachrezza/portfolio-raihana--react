@@ -229,7 +229,7 @@ const projects = [
     title: "Logo Design Projects",
 
     description:
-      "The Manna is a retro-inspired Korean restaurant serving old-school Korean toast and authentic korean snacks. The logo combines nostalgic Korean vintage aesthetics with bold modern elements, creating playfull yet iconic brand identity inspired by classic Korean street culture.",
+      "",
 
     tech: [
       "Brand Identity",
@@ -240,14 +240,7 @@ const projects = [
     image: "/projects/logo/logo1.webp",
 
     gallery: [
-      "/projects/logo/logo1.webp",
-      
-      "/projects/logo/logo3.webp",
-      "/projects/logo/logo8.webp",
-      "/projects/logo/logo4.webp",
-      "/projects/logo/logo5.webp",
-      "/projects/logo/logo6.webp",
-      "/projects/logo/logo7.webp",
+      "/projects/logo/logonew.jpeg",
 
     ],
   },
