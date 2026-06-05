@@ -12,13 +12,14 @@ export default function App() {
       <div
         className="
           fixed
-          top-[-100px]
-          left-[-100px]
+          top-[-40px]
+          left-[-30px]
+          -rotate-45
 
-          w-[350px]
-          h-[350px]
+          w-[450px]
+          h-[650px]
 
-          bg-blue-300/30
+          bg-blue-500/30
           blur-3xl
           rounded-full
 
@@ -29,13 +30,14 @@ export default function App() {
       <div
         className="
           fixed
-          bottom-[-100px]
-          right-[-100px]
+          bottom-[-30px]
+          right-[-150px]
+          -rotate-30
 
-          w-[350px]
-          h-[350px]
+          w-[450px]
+          h-[650px]
 
-          bg-purple-300/30
+          bg-red-400/30
           blur-3xl
           rounded-full
 
