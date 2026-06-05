@@ -217,6 +217,7 @@ const projects = [
       "/projects/dr/dr9.webp",
       "/projects/dr/dr10.webp",
       "/projects/dr/dr11.webp",
+      "/projects/dr/dr12.jpeg",
 
     ],
   },
