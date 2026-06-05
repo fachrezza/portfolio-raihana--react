@@ -1,7 +1,7 @@
 const projects = [
   {
     category: "Graphic Design",
-
+    
     title: "Social Media & Digital Content Intern at Telkom Indonesia",
 
     description:
